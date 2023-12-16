@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bm_engenharia_services",
+  "info": {
+    "singularName": "bm-engenharia-service",
+    "pluralName": "bm-engenharia-services",
+    "displayName": "BM Engenharia Serviço",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Instalações",
+        "Geração de Energia",
+        "Eficiência Energética",
+        "Pesquisa e Desenvolvimento em Energia",
+        "Gestão de Energia"
+      ]
+    }
+  }
+}

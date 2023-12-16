@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expense_tracker_users",
+  "info": {
+    "singularName": "expense-tracker-user",
+    "pluralName": "expense-tracker-users",
+    "displayName": "Expense Tracker User"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "username": {
+      "type": "string"
+    }
+  }
+}

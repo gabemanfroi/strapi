@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gabriel_portfolio_resume_item_dates",
+  "info": {
+    "singularName": "gabriel-portfolio-resume-item-date",
+    "pluralName": "gabriel-portfolio-resume-item-dates",
+    "displayName": "Gabriel Portfolio Resume Item Date",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "initialYear": {
+      "type": "string"
+    },
+    "endYear": {
+      "type": "string"
+    },
+    "resumeItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gabriel-portfolio-resume-item.gabriel-portfolio-resume-item"
+    }
+  }
+}

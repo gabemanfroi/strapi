@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gabriel_portfolio_projects",
+  "info": {
+    "singularName": "gabriel-portfolio-project",
+    "pluralName": "gabriel-portfolio-projects",
+    "displayName": "Gabriel Portfolio Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "string"
+    },
+    "projectTags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gabriel-portfolio-project-tag.gabriel-portfolio-project-tag"
+    },
+    "position": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

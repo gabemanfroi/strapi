@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "edu_pulse_courses",
+  "info": {
+    "singularName": "edu-pulse-course",
+    "pluralName": "edu-pulse-courses",
+    "displayName": "Edu Pulse Course"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

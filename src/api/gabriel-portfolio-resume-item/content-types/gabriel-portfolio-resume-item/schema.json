@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gabriel_portfolio_resume_items",
+  "info": {
+    "singularName": "gabriel-portfolio-resume-item",
+    "pluralName": "gabriel-portfolio-resume-items",
+    "displayName": "Gabriel Portfolio Resume Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "institution": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer"
+    }
+  }
+}

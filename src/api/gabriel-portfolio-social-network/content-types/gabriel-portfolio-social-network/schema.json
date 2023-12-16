@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gabriel_portfolio_social_networks",
+  "info": {
+    "singularName": "gabriel-portfolio-social-network",
+    "pluralName": "gabriel-portfolio-social-networks",
+    "displayName": "Gabriel Portfolio Social Network",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "linkedin",
+        "website",
+        "blog",
+        "twitter"
+      ]
+    }
+  }
+}

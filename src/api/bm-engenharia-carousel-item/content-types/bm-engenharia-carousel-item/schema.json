@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bm_engenharia_carousel_items",
+  "info": {
+    "singularName": "bm-engenharia-carousel-item",
+    "pluralName": "bm-engenharia-carousel-items",
+    "displayName": "BM Engenharia Item Carrossel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

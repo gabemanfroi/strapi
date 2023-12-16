@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "edu_pulse_books",
+  "info": {
+    "singularName": "edu-pulse-book",
+    "pluralName": "edu-pulse-books",
+    "displayName": "Edu Pulse Book"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
